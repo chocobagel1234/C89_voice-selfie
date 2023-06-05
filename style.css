@@ -1,0 +1,32 @@
+/*Varela Round CSS Rules: 
+font-family: 'Varela Round', sans-serif;*/
+
+/*Manrope CSS Rules: 
+font-family: 'Manrope', sans-serif;*/
+body {
+    text-align: center;
+}
+
+
+.warning {
+    font-family: 'Varela Round', sans-serif;
+    font-weight:lighter;
+    color: rgb(217, 3, 3);
+}
+
+.display-4, .lead {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+.display-4 {
+    font-weight: 400 !important;
+}
+
+.display-1 {
+    font-size: 5rem !important;
+}
+
+.img {
+    width: 300px;
+}
+
