@@ -27,6 +27,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
+    <!--Google Font Import - Catamaran (new footer font!)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="style.css"></link>
 
 </head>
@@ -46,14 +51,14 @@
     
     <!--Button with onclick and hover effects (jQuery)-->
     <button onclick="save()" class="btn btn-primary" id="start-btn"><i class="bi bi-camera-video"></i> Start</button> 
-    <!--Instructional label-->
-    <h4>Please press the start button</h4>
-
+<br>    <!--Instructional label-->
+    <label>Please press the start button</label>
+<br><br>
     <!--Label showing where webcam window is-->
     <label>Your webcam:</label>  
     <!--<div> component with id of "camera" to load live webcam preview-->
-    <div id="webcam"></div>
-
+    <div id="camera" style="background-color: lightgrey;"></div>
+<br>
     <!--Label showing where all selfies will be displayed-->
     <label>All selfies will be displayed here:</label>
     
@@ -63,16 +68,17 @@
     <a href="" id="link" download="myselfie3.png"></a>
     
     <!--<div> components with id of "result[num]Show" to show all three selfies-->
-    <div id="result1Show" class="container" style="inline-size:10%;"></div><img src="pic1.jpg" class="thumbnail img"> </div>
+    <div id="result1Show" class="container" style="inline-size:10%;"></div><img src="pic1.jpg" class="img-thumbnail img"> </div>
     <br>
-    <div id="result2Show" class="container" style="inline-size: 10%;"></div><img src="pic2.jpg" class="thumbnail img"></div>
+    <div id="result2Show" class="container" style="inline-size: 10%;"></div><img src="pic2.jpg" class="img-thumbnail img"></div>
     <br><br>
-    <div id="result3Show" class="container" style="inline-size: 10%;"></div><img src="pic3.png" class="thumbnail img"></div>
+    <div id="result3Show" class="container" style="inline-size: 10%;"></div><img src="pic3.png" class="img-thumbnail img"></div>
     <br><br>
  
 
 </div>
-<footer style="color:white; background-color: rgb(53, 63, 72); position: sticky; padding: 1rem;">(footer)</footer>
+
+<footer style="color:white; background-color: rgb(53, 63, 72); position: sticky; padding: 1rem;">Developed by Mahdiya Alam</footer>
 </center>
 </body>
 

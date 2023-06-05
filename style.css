@@ -3,6 +3,11 @@ font-family: 'Varela Round', sans-serif;*/
 
 /*Manrope CSS Rules: 
 font-family: 'Manrope', sans-serif;*/
+@font-face {
+    font-family: Adca;
+    src: url("Adca.ttf");
+}
+
 body {
     text-align: center;
 }
@@ -23,10 +28,37 @@ body {
 }
 
 .display-1 {
+    font-family: 'Adca';
     font-size: 5rem !important;
 }
 
 .img {
-    width: 300px;
+    width: 18.75rem;
 }
 
+.img::before {
+    width: 18.75rem;
+}
+
+.img:hover {  
+    transition-duration: 0.5s;
+    width: 20.75rem;
+    transform: rotate(45) ease-in;
+    box-shadow: 5rem, 5rem, 5rem, 5rem, grey;
+}
+
+.img::after{
+    transition-duration: 0.5s;
+    width: 18.75rem;
+    transform: rotate(-45) ease-out;
+    box-shadow: none;
+}
+
+footer {
+    font-family: 'Catamaran', sans-serif;
+}
+
+#camera {
+    width: 15rem;
+    height: 12rem;
+}
